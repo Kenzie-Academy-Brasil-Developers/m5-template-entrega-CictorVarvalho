@@ -1,4 +1,4 @@
-mport { describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 import { prisma } from "../../../database/prisma";
 import { category } from "../../mocks/category.mocks";
 import { getTaskList, task } from "../../mocks/tasks.mocks";

@@ -1,4 +1,4 @@
-mport { describe, it } from "vitest";
+import { describe, it } from "vitest";
 import { prisma } from "../../../database/prisma";
 import { category } from "../../mocks/category.mocks";
 import { secondUserMock } from "../../mocks/user.mocks";
