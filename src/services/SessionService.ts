@@ -1,5 +1,5 @@
 import { compare } from "bcryptjs";
-import { prisma } from "../database/prisma";
+import { prisma } from "../database/prisma.1";
 import { AppError } from "../errors";
 import { SessionCreate, SessionReturn } from "../interfaces/session.interfaces";
 import { sign } from "jsonwebtoken";

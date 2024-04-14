@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { prisma } from "../../../database/prisma";
+import { prisma } from "../../../database/prisma.1";
 import { invalidDataUserMock, userMock } from "../../mocks/user.mocks";
 import { request } from "../../setupFiles";
 import { userDefaultExpects } from "../../utils/userDefaultExpects";

@@ -1,5 +1,5 @@
 import { Response } from "express";
-import { prisma } from "../database/prisma";
+import { prisma } from "../database/prisma.1";
 import { category, categoryCreate, categoryReturn } from "../interfaces/category.interfaces";
 import { categoryReturnSchema, categorySchema } from "../schemas";
 

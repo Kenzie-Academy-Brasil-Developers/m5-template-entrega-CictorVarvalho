@@ -1,11 +1,7 @@
 import { describe, it } from "vitest";
 import { request } from "../../setupFiles";
-import {
-   generateAuthentication,
-   generateInvalidToken,
-} from "../../utils/generateAuthentication";
 import { userDefaultExpects } from "../../utils/userDefaultExpects";
-
+import { generateAuthentication, generateInvalidToken } from "../../utils/generateAuthentication";
 describe("get user", () => {
   it("should be able to get user sucessfully", async () => {
     const { token } = await generateAuthentication();

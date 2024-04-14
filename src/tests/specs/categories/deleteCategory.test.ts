@@ -1,5 +1,4 @@
 import { describe, it } from "vitest";
-import { prisma } from "../../../database/prisma";
 import { category } from "../../mocks/category.mocks";
 import { secondUserMock } from "../../mocks/user.mocks";
 import { request } from "../../setupFiles";
@@ -7,6 +6,7 @@ import {
    generateAuthentication,
    generateInvalidToken,
 } from "../../utils/generateAuthentication";
+import { prisma } from "../../../database/prisma";
 
 const deleteCategoryBeforeEach = async () => {
   const { user: user1, token: token1 } = await generateAuthentication();

@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
-import { prisma } from "../database/prisma";
 import { AppError } from "../errors";
+import { prisma } from "../database/prisma";
 
 class PermissionMiddleware{
     public isOwnerTaskId = async(req: Request ,res:Response, next: NextFunction): Promise<void> => {

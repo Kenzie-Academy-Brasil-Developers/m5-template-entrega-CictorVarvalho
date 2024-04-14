@@ -1,5 +1,5 @@
 import { Response } from "express";
-import { prisma } from "../database/prisma";
+import { prisma } from "../database/prisma.1";
 import { Task, TaskCreate, TaskReturn, TaskReturnGet } from "../interfaces/task.interfaces";
 import { taskReturnGetSchema, taskReturnSchema, taskSchema } from "../schemas";
 
